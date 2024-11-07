@@ -50,11 +50,12 @@ y_test = scaler_y.inverse_transform(y_test)
 print(y_pred)
 mse = mean_squared_error(y_test,y_pred)
 print("Mean Squared Error:" ,mse)
-print("/nPrediction:/n" ,y_pred[:5])
+print("\nPrediction:\n" ,y_pred[:5])
 ```
 Output:
 
-![Screenshot 2024-11-07 093202](https://github.com/user-attachments/assets/4e563d60-69cc-454c-9c3c-d1fdb23884e1)
+![Screenshot 2024-11-07 133701](https://github.com/user-attachments/assets/7d7160c9-51a8-4dbc-bb3f-7626c4a7cdb7)
+
 
 
 ## Result:
